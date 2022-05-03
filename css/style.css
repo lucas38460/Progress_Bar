@@ -1,29 +1,29 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    margin-top: 240px;
+  display: flex;
+  justify-content: center;
+  margin-top: 240px;
 }
 
 #progress {
-    width: 350px;
-    height: 25px;
-    border: solid 1px black;
-    background-color: grey;
-    position: absolute;
+  width: 350px;
+  height: 25px;
+  border: solid 1px black;
+  background-color: grey;
+  position: absolute;
 }
 
 #progressing {
-    display: inline-block;
-    width: 348px;
-    height: 23px;
-    background-color: red;
-    position: relative;
+  display: inline-block;
+  width: 348px;
+  height: 23px;
+  background-color: red;
+  position: relative;
 }
