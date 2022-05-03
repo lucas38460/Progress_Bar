@@ -18,3 +18,9 @@ body {
     border: solid 1px black;
     background-color: grey;
 }
+
+#progressing {
+    width: 350px;
+    height: 25px;
+    background-color: red;
+}
