@@ -17,10 +17,13 @@ body {
     height: 25px;
     border: solid 1px black;
     background-color: grey;
+    position: absolute;
 }
 
 #progressing {
-    width: 350px;
-    height: 25px;
+    display: inline-block;
+    width: 348px;
+    height: 23px;
     background-color: red;
+    position: relative;
 }
