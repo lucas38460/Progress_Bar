@@ -6,8 +6,15 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 240px;
+}
+
 #progress {
     width: 350px;
     height: 25px;
     border: solid 1px black;
+    background-color: grey;
 }
