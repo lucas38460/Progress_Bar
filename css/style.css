@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+#progress {
+    width: 350px;
+    height: 25px;
+    border: solid 1px black;
+}
