@@ -22,7 +22,7 @@ body {
 
 #progressing {
   display: inline-block;
-  max-width: 350px;
+  max-width: 348px;
   width: 0px;
   height: 23px;
   background-color: red;
