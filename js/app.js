@@ -1,13 +1,8 @@
-const divProress = document.getElementById("progress");
-
+const divRed = document.getElementById('progressing');
 let count = 0;
-
-function NomDeLaFunction(count) {
-  return count++;
+let random = Math.floor(Math.random() * (15-3) + 3 );
+function countRender(e) {
+  count = count + e;
+  divRed.style.width = `${count}px`;
 }
-
-if (count != 100) {
-  setInterval(NomDeLaFunction, 1000);
-}
-
-console.log(count);
+setInterval(() => countRender(0.1), random);
